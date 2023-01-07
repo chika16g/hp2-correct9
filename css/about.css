@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* ===========================================
+about
+=========================================== */
+
+#about{
+  margin-bottom: 10%;
+}
+
+.about-wrapper__ttl{
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.about-wrapper__sub-title{
+  font-family: sans-serif;
+  margin-bottom: 3%;
+  font-size: 2rem;
+}
+
+.about-wrapper__txt{
+  margin: 0 auto;
+  max-width: 800px;
+  margin-bottom: 5%;
+}
+
+.about-wrapper__img{
+  text-align: right;
+  margin-right: 65px;
+}
+
+.about-wrapper__img img{
+  max-width: 600px;
+}
+
+/* ===========================================
+レスポンシブ 
+=========================================== */
+
+@media screen and (max-width: 750px) {
+
+  .about-wrapper__sub-title{
+    font-size: min(8vw,30px);
+  }
+
+  .about-wrapper__img{
+    text-align: left;
+    margin-right: 0px;
+  }
+
+  .about-wrapper__img img{
+    max-width: 300px;
+  }
+
+}

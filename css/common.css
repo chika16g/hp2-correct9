@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* ===========================================
+
+=========================================== */
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+p,
+li {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+h1,
+h2 {
+  font-size: 3.5rem;
+}
+
+ol{
+  list-style: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.twitter {
+  width: 36px;
+  height: 36px;
+}
+
+.instagram {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 1%;
+}
+
+.view-more {
+  display: inline-block;
+  border: 1px solid #000;
+  max-width: 230px;
+}
+
+.view-more a{
+  text-align: center;
+  display: inline;
+  padding: 0 5.5vw;
+  line-height: 3;
+  white-space: nowrap;
+}
+
+.wrapper {
+  max-width: 950px;
+  margin: 0 auto;
+  width: 96%;
+}
+
+/* ===========================================
+レスポンシブ 
+=========================================== */
+
+@media screen and (max-width: 750px) {
+
+  html{
+    font-size: 90%;
+  }
+  
+}
